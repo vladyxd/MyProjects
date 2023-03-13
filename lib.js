@@ -6,7 +6,7 @@ const coordinates = {
     'z': `83`
 };
 
-let generatedCommand = `execute as nusuntvlady run summon villager ${coordinates['x']} ${coordinates['y']} ${coordinates['z']} `;
+let generatedCommand = `execute as @p run summon villager ${coordinates['x']} ${coordinates['y']} ${coordinates['z']} `;
 function generateVillager(level, type, toReceive, toSend, Enchantments, Count, toSellCount) {
     let generatedReceipt = [];
 
